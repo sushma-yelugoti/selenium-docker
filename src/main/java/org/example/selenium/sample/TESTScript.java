@@ -7,15 +7,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class TESTScript {
 
 	static String  DRIVER_NAME="webdriver.chrome.driver";
-	static String CHROME_PATH="/Users/sivajiyelugoti/workspace/selenium-docker/src/main/resources/chromedriver";
+	static String CHROME_PATH="/Users/sivajiyelugoti/Sushma/selenium-docker/src/main/resources/chromedriver";
 
 
 	public static void main(String[] args) {
 
 		try {
 
-			System.setProperty(DRIVER_NAME,CHROME_PATH);
-
+			//System.setProperty(DRIVER_NAME,CHROME_PATH);
+			System.setProperty("webdriver.http.factory", "jdk-http-client");
 			WebDriver driver = new ChromeDriver();
 			driver.manage().window().maximize();
 
