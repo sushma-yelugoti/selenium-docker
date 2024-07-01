@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class TESTScript {
 
 	static String  DRIVER_NAME="webdriver.chrome.driver";
-	static String CHROME_PATH="/Users/sivajiyelugoti/Sushma/selenium-docker/src/main/resources/chromedriver";
+	static String CHROME_PATH="/usr/local/bin/chromedriver";
 
 
 	public static void main(String[] args) {
