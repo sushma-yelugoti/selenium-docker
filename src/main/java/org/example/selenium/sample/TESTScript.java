@@ -14,7 +14,7 @@ public class TESTScript {
 
 		try {
 
-			//System.setProperty(DRIVER_NAME,CHROME_PATH);
+			System.setProperty(DRIVER_NAME,CHROME_PATH);
 			System.setProperty("webdriver.http.factory", "jdk-http-client");
 			WebDriver driver = new ChromeDriver();
 			driver.manage().window().maximize();
